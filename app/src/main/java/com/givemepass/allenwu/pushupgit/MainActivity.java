@@ -32,7 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
         int a=1+1;
         int b=4+4;
-        int c=a+b;
+        //int c=a+b;
+        int d=a-b;
+
+    }
+    private void TestFunction(){
+
+        int a=2*2;
+        int b=4*4;
+        int c=b/a;
 
     }
     @Override
