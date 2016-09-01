@@ -34,18 +34,24 @@ public class MainActivity extends AppCompatActivity {
         int b=4+4;
         //int c=a+b;
         int d=a-b;
-
+int c=a+b;
     }
     private void TestFunction(){
 
         int a=2*2;
         int b=4*4;
         int c=b/a;
+        int d=a-b;
 
+    }
+
+    private void helloMaster(){
+        int a=1*1;
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
+        MenuItem menuItem;
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
