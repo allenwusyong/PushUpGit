@@ -28,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void Testfile(){
+
+        int a=1+1;
+        int b=4+4;
+        int c=a+b;
+
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
